@@ -8,6 +8,26 @@
 #include <iostream>
 using namespace std;
 
+class Color {
+    int red, green, blue;
+
+    public:
+    // the getter methods:
+    int getRed() { return red; }
+    int getGreen() { return green; }
+    int getBlue() { return blue; }
+
+    // the setter methods:
+    void setRed(int r) { red = r; }
+    void setGreen(int g) { green = g; }
+    void setBlue(int b) { blue = b; }
+
+    // the class member print method:
+    void print() {
+        cout << "RGB(" << red << ", " << green << ", " << blue << ")" << endl;
+    }
+};
+
 int main() {
 
     return 0;
